@@ -49,3 +49,13 @@ It performs well in identifying non-churning customers and reasonably well in de
 The Streamlit interface makes the tool accessible to non-technical users.
 
 This solution can assist telecom companies in reducing churn by allowing them to take early action for customer retention.
+
+How to Run
+Install dependencies:
+pip install -r requirements.txt
+
+Train the model:
+python train.py
+
+Launch the frontend:
+streamlit run app.py
